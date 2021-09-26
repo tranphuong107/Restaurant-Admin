@@ -1,0 +1,172 @@
+/* css for nhahang */
+/* css for all */
+.my-color-text{
+    color:#ff6b81 !important;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+/* css for food search */
+.nav-link{
+    color:#ff6b81 !important;
+    font-size: 1.5rem;
+}
+form{
+    background-image: url(../images/bg.jpg);
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    padding: 7% 0;
+}
+/* .height-search{
+    width: 400px;
+} */
+.my-color{
+    background-color:#ff6b81 !important;
+}
+/* .f-search{
+    display: flex;
+    padding: 0 auto !important;
+    text-align: center !important;
+} */
+.my-text{
+    color: #2f3542 !important;
+ 
+}
+.text-center{
+    padding: 0 1%;
+}
+/* css for categories */
+
+.box-3{
+    padding: 1%;
+    width: 28%;
+    margin: 2% !important;
+}
+.position-absolute{
+    bottom: 15px;
+    color: white;
+    left: 35%;
+}
+/* css for foodsearch */
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/* css for food menu */
+.food-menu{
+    background-color: #dfe6e9;
+    padding: 4% 0;
+    
+}
+.food-menu-box{
+  border-radius: 15px;
+    width: 46%;
+   margin: 2%;
+   padding: 2%;
+   float: left;
+   background-color: white;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width:70%;
+    float: left;
+    margin-left: 6%;
+}
+.food-price{
+    font-size: 1rem;
+    
+}
+.food-detail{
+    color: #747d8c;
+    font-size: 1rem;
+    margin-bottom: 2%;
+}
+.see-all{
+  margin-top: 1%;
+    color: #ff6b81;
+}
+h4{
+    /* margin-bottom: 1%; */
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* css for social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+/* css for social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+/* Css for mobile size or smaller screen */
+@media only screen and (max-width:768px) {
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width: 80%;
+        padding: 2%;
+        margin-left: 2%;
+    }
+    .btn{
+        width: 70%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 2% 0;
+    }
+    h2{
+       margin-bottom: 10%;
+    }
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+    .food-menu{
+        padding: 20% auto ;
+    }
+    .food-menu-box{
+        width: 95%;
+        padding: 5% ;
+        margin: 5% auto ;
+        
+    }
+    .social{
+        padding: 5% 0;
+    }
+   
+
+}

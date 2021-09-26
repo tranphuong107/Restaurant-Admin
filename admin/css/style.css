@@ -1,0 +1,124 @@
+/* css for home */
+.my-text{
+    color: #ff6b81;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.my-text-color{
+    color: #ff6b81 !important;
+}
+.nav-link:hover{
+    color:#ff4757;
+}
+/* css part2 */
+.p2{
+    width:95%;
+    padding: 3%;
+}
+.wapper{
+    background-color: #f1f2f6 ;
+}
+h3{
+    font-size: 1rem;
+}
+.box2{
+    width: 21%;
+    padding: 2%;
+    margin: 5% 1%;
+    float: left;
+}
+/* css for part3 */
+.my-bg{
+    background-color: #ff6b81 ;
+   
+}
+p{
+    padding: 0.5%;
+    margin-bottom: 0;
+    color: white;
+}
+/* css for admin */
+.btn-add{
+    margin: 2% 0;
+    border:none;
+    background-color: #1e90ff !important;
+    font-size: 1rem;
+    border-radius: unset;
+    font-weight: bold;
+}
+.btn-change{
+    border:none;
+    background-color: #1e90ff !important;
+    font-size: 1rem;
+    border-radius: unset;
+    font-weight: bold;
+}
+.btn-update{
+    border:none;
+    color: black;
+    background-color: #7bed9f !important;
+    font-size: 1rem;
+    border-radius: unset;
+    font-weight: bold;
+    
+}
+.btn-update:hover{
+    color:black;
+}
+.btn-delete{
+    border:none;
+    background-color: #ff6b81 !important;
+    font-size: 1rem;
+    border-radius: unset;
+    font-weight: bold;
+    
+}
+/* css for admin categories */
+.row-img{
+    margin-right: 50%;
+
+}
+.table{
+    border-collapse:separate; 
+    border-spacing:2px;
+    table-layout: auto;
+    width: 100%;
+}
+.action-space{
+    table-layout: auto;
+}
+ td{
+    padding: auto !important;
+}
+/* css for food */
+
+/* css for order */
+.cancelled-color{
+    color: red !important;
+}
+.top{
+    padding-bottom: 1.5rem !important;
+    margin: 0 1% !important;
+}
+.border-left{
+   border-spacing: 1px;
+}
+.action-color{
+    background-color:#7bed9f !important ;
+    margin-right: 2rem;
+}
+.status-color{
+    color: #27ae60 !important;
+    font-weight: bold;
+}
+/* responsive */
+@media only screen and (max-width:768px) {
+    .box2{
+        width: 90%;
+       
+    }
+    .img-dt{
+        width: 120% !important;
+    }
+}
+
