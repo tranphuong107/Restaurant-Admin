@@ -17,19 +17,19 @@
         <div class="col">
           <ul class="nav justify-content-center my-text border-bottom border-dark">
             <li class="nav-item">
-              <a class="nav-link  my-text " href="http://localhost:88/admin/home.php">Home</a>
+            <a class="nav-link  my-text " href="home.php">Home</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link my-text " href="http://localhost:88/admin/admin.php">Admin</a>
+              <a class="nav-link my-text " href="admin.php">Admin</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link my-text " href="http://localhost:88/admin/categories.php">Categories</a>
+              <a class="nav-link my-text " href="categories.php">Categories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link my-text" href="http://localhost:88/admin/food.php">Food</a>
+              <a class="nav-link my-text" href="food.php">Food</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link my-text " href="http://localhost:88/admin/order.php">Order</a>
+              <a class="nav-link my-text " href="order.php">Order</a>
             </li>
             <li class="nav-item">
               <a class="nav-link my-text">Logout</a>

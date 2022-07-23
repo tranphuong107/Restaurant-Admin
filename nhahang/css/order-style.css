@@ -1,0 +1,192 @@
+/*
+    Author: Bich Phuong;
+    Theme: Restaurant Food Order;
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    background-color: #ff4757;
+    color: white;
+}
+h2{
+    
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position:absolute;
+    bottom: 50px;
+    left: 40%;
+    color: white;
+    font-size: 1.5rem;
+}
+/* css for navbar section */
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+      
+}
+.menu ul li{
+    padding: 1%;
+   display: inline;
+   font-weight: bold;
+}
+
+/* css for order food */
+.order-food{
+    
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+h1{
+    color: white;
+    font-size: 1.8rem;
+    padding: 1%;
+}
+.form-confirm{
+  margin: 2% 30%;
+  padding: 5% auto;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.form-text{
+    margin: 3%;
+    font-size: 1.2rem;
+}
+.form{
+    outline-color: white;
+}
+.food-order-img{
+    margin: 3%;
+    float: left;
+    width: 20%;
+}
+.food-order-text{
+    width:65%;
+    float: left;
+    margin: 3% 3%;
+    
+}
+.input-box{
+    border-radius: 5px;
+    width: 90%;
+    float: left;
+    margin:  3%;
+    margin-top: 1%;
+    padding: 1%;
+    border: none;
+}
+.sl{
+    width: 99%;
+    padding: 1%;
+    margin: 2% auto;
+    border: none;
+    border-radius: 5px;
+}
+.Address{
+    padding-bottom: 60%;
+    
+}
+.btn-confirm{
+    float: left;
+    color: white;
+    background-color: #ff6b81;
+    font-size: 1rem;
+    padding: 1%;
+    margin: 3% ;
+    border-radius: 5px;
+}
+h4{
+    margin: 0 3%; 
+}
+h3{
+    font-size: 1rem;
+    margin-top: 1%;
+}
+/* css for social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* resposive */
+@media only screen and (max-width:768px) {
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .form-confirm{
+        margin: 2% 5%;
+        padding: 5% auto;
+        border-radius: 10px;
+        border: 1px solid white;
+      }
+      h1{
+          font-size: 1.1rem;
+      }
+      .form-text{
+        margin: 3%;
+        font-size: 1rem;
+    }
+}

@@ -27,13 +27,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto  fw-bolder  ">
         <li class="nav-item  ">
-          <a class="nav-link fs-6 " aria-current="page" href="http://localhost:88/nhahang/">Home</a>
+          <a class="nav-link fs-6 " aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link   fs-6" href="http://localhost:88/nhahang/categories.php">Categories</a>
+          <a class="nav-link   fs-6" href="categories.php">Categories</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link  fs-6" href="http://localhost:88/nhahang/food.php">Foods</a>
+          <a class="nav-link  fs-6" href="food.php">Foods</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link   fs-6" href="#">Contact</a>
